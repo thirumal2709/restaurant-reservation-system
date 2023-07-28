@@ -1,0 +1,133 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-right: 10px;
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    margin: 50px;
+    text-align: center;
+  }
+  
+  
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 150px;
+    height: 170px;
+    padding: 10px;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    margin-bottom: 10px;
+  }
+  .sidebar-item:hover
+  {
+    background-color: goldenrod;
+  }
+  
+  .sidebar-item a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    flex: 1;
+    margin: 50px;
+  }
+  
+  .content h1 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-item a {
+    padding: 10px;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap");
+
+svg {
+	font-family: "Vesper Libre", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #0C1524;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(204,35,74,0); stroke: rgba(12,21,36,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(204,35,74,0); stroke: rgba(12,21,36,1); }
+	80%  {fill: rgba(204,35,74,0); stroke: rgba(12,21,36,1); stroke-width: 3; }
+	100% {
+		fill: rgba(204,35,74,1); stroke: rgba(12,21,36,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  margin-top: 200px;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 200px 0 0 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #eaeaea;
+}
+
+
+
+  

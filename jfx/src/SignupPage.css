@@ -1,0 +1,47 @@
+.container {
+  max-width: 300px;
+  margin: 150px 10px 15px 600px;
+  padding: 20px;
+  border: 1px solid #d70d0d;
+  border-radius: 4px;
+  /* background-image: url("C:\Users\Somnath\OneDrive\Desktop\images.jpg");  */
+}
+.group {
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type='username'],
+input[type='email'],
+input[type='password'],
+input[type='confirmpassword'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9b1515;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: rgb(191, 64, 64);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-right: 25px;
+  margin-left: 100px;
+}
+
+button[type='submit'] {
+  margin-top: 10px;
+  
+}
+.text
+{
+  font-family: "garamand", serif;
+  margin-left: 65px;
+}
